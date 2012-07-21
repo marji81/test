@@ -7,14 +7,12 @@ window.onload = function() {
 
     game.onload = function () {
 
-        // 1•C–Ú
         var bear = new Sprite(32, 32);
         bear.image = game.assets['chara1.gif'];
         bear.frame = 10;
         bear.y     = 30;
         bear.backgroundColor = 'red';
 
-        // 2•C–Ú
         var bear2 = new Sprite(32, 32);
         bear2.image = game.assets['chara1.gif'];
         bear2.frame = 3;
